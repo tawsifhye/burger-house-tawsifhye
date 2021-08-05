@@ -133,3 +133,10 @@ nav {
     font-size: 3em;
     color: rgb(82, 25, 25);
 }
+
+.menu-intro {
+    width: 75%;
+    text-align: center;
+    color: rgb(82, 25, 25);
+    margin: 0 auto;
+}
