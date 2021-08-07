@@ -11,6 +11,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    width: 100%;
 }
 
 nav {
@@ -84,7 +85,6 @@ nav {
 .banner-heading div>h1 {
     font-size: 10em;
     color: rgb(82, 25, 25);
-
 }
 
 .banner-heading div>h2 {

@@ -1,0 +1,149 @@
+/* mobile devices */
+@media only screen and (max-width: 688px) {
+    nav {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .express-delivery {
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav-bar {
+        padding: 10px;
+        text-align: left
+    }
+
+    .nav-bar ul {
+        padding: 0;
+        text-decoration: none;
+        list-style: none;
+    }
+
+    .nav-bar ul li {
+        display: block;
+        padding: 0;
+    }
+
+    .nav-bar ul li a {
+        text-decoration: none;
+        padding: 0;
+        color: rgb(82, 25, 25);
+        font-weight: bolder;
+    }
+
+    .banner {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: space-evenly;
+    }
+
+    .banner-heading div>h1 {
+        font-size: 5em;
+        color: rgb(82, 25, 25);
+        margin-left: 0;
+    }
+
+    .banner-heading div>h2 {
+        font-size: 3em;
+        padding-left: 0;
+    }
+
+    .banner-image {
+        margin: 0;
+    }
+
+    .banner-image img {
+        width: 100%;
+        border-radius: 100%;
+        padding: 0;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 5%;
+        column-gap: 5%;
+        padding: 2%;
+        height: 30em;
+        box-sizing: border-box;
+    }
+
+    .block1 {
+        grid-row: auto;
+        grid-column: auto;
+    }
+
+    .block1 h1,
+    .block2 h1,
+    .block3 h1 {
+        font-size: 1.5em;
+    }
+
+    .block2 {
+        grid-row: auto;
+        grid-column: auto;
+        font-size: 1em;
+
+    }
+
+    .block3 {
+        grid-row: auto;
+        grid-column: auto;
+        background-image: url(../images/fresh-chill.jpg);
+    }
+
+    .block1 h1,
+    .block2 h1,
+    .block3 h1 {
+        font-size: 1.5em;
+    }
+
+    .block1 h2,
+    .block2 h2,
+    .block3 h2 {
+        font-size: 1em;
+    }
+
+    .menu-items {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 20px;
+        padding: 10%;
+    }
+
+    .single-menu {
+        width: 100%;
+        padding: 10px 0;
+        height: auto;
+        box-shadow: 2px 2px 40px #f2f2f2;
+        border-radius: 10px;
+    }
+
+    .menu-image img {
+        width: 90%;
+    }
+
+    .event {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    form {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    input[type=text],
+    select {
+        width: 100%;
+        padding: 12px 20px;
+        /* margin: 8px 0; */
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+}
