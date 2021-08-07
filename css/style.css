@@ -6,7 +6,11 @@
 }
 
 header {
-    background-color: #a5940096;
+    /* background-color: #a5940096; */
+    background-image: url(../images/banner-background2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 nav {
@@ -37,13 +41,13 @@ nav {
 .banner-heading {}
 
 .banner-heading>h1 {
-    font-size: 5em;
+    font-size: 10em;
     color: rgb(82, 25, 25);
 
 }
 
 .banner-heading>h2 {
-    font-size: 2em;
+    font-size: 5em;
     color: rgb(82, 25, 25);
 }
 
