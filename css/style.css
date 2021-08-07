@@ -31,15 +31,15 @@ nav {
 }
 
 .nav-bar {
-    text-align: right;
-    margin-left: auto;
     padding: 10px;
+    text-align: right;
+
 }
 
 .nav-bar ul {
     text-decoration: none;
     list-style: none;
-    text-align: right;
+    margin-left: auto;
 }
 
 .nav-bar ul li {
@@ -60,8 +60,17 @@ nav {
 .nav-bar ul li a:hover {
     background-color: crimson;
     color: white;
+    padding: 5px 10px;
 
 }
+
+.express-delivery {
+    padding: 0 20px;
+    color: rgb(41, 24, 24);
+    font-weight: bolder;
+}
+
+
 
 .banner {
     display: grid;
