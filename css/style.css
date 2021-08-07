@@ -30,6 +30,38 @@ nav {
     padding-right: 10px;
 }
 
+.nav-bar {
+    text-align: right;
+    margin-left: auto;
+    padding: 10px;
+}
+
+.nav-bar ul {
+    text-decoration: none;
+    list-style: none;
+    text-align: right;
+}
+
+.nav-bar ul li {
+    margin: auto;
+    display: inline;
+    padding: 10px;
+
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color: rgb(82, 25, 25);
+    font-weight: bolder;
+    padding: 10px;
+
+}
+
+.nav-bar ul li a:hover {
+    background-color: crimson;
+    color: white;
+
+}
 
 .banner {
     display: grid;
@@ -40,15 +72,16 @@ nav {
 
 .banner-heading {}
 
-.banner-heading>h1 {
+.banner-heading div>h1 {
     font-size: 10em;
     color: rgb(82, 25, 25);
 
 }
 
-.banner-heading>h2 {
-    font-size: 5em;
+.banner-heading div>h2 {
+    font-size: 6em;
     color: rgb(82, 25, 25);
+    padding-left: 10px;
 }
 
 .banner-image {
